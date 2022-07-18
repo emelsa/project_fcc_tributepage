@@ -1,0 +1,83 @@
+#main {
+    background-color: rgb(235, 230, 230);
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(61, 60, 60);
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+p{
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(61, 60, 60);
+    font-family: 'Courier New', Courier, monospace;  
+    text-align: center;
+}
+
+#img-div {
+    background-color: white;
+    margin : 0px;
+    padding: 10px;
+}
+
+#image{
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.temporality {
+    margin-top: 70px;
+}
+
+.temporality h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.liste {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.liste li{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.liste strong{
+    font-size: 20px;
+    color: rgb(61, 60, 60);
+
+}
+
+.liste li::marker{
+    color: rgb(61, 60, 60);
+    font-size: large;
+}
+
+.citation {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+.citation p{
+    font-style: italic;
+    font-size: large;
+}
+
+.lien p{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
